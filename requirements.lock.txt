@@ -5,14 +5,14 @@
 aiohappyeyeballs==2.7.1
     # via aiohttp
 aiohttp==3.14.5
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+    # via -r u.txt
 aiosignal==1.4.0
     # via aiohttp
 annotated-doc==0.0.5
     # via fastapi
 annotated-types==0.8.0
     # via pydantic
-anyio==4.15.1
+anyio==4.16.0
     # via starlette
 attrs==26.1.0
     # via aiohttp
@@ -22,14 +22,14 @@ cffi==2.1.1
     # via
     #   cryptography
     #   pynacl
-click==8.5.0
+click==8.5.1
     # via
-    #   -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+    #   -r u.txt
     #   uvicorn
 cryptography==50.0.2
     # via paramiko
-fastapi==0.143.1
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+fastapi==0.162.2
+    # via -r u.txt
 frozenlist==1.8.0
     # via
     #   aiohttp
@@ -43,42 +43,42 @@ idna==3.20
 invoke==3.0.3
     # via paramiko
 jinja2==3.1.6
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+    # via -r u.txt
 markdown-it-py==4.2.0
     # via rich
 markupsafe==3.0.4
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-multidict==7.1.0
+multidict==7.2.1
     # via
     #   aiohttp
     #   yarl
-opentelemetry-api==1.45.1
+opentelemetry-api==1.45.2
     # via fastapi
-paramiko==5.0.0
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+paramiko==5.1.0
+    # via -r u.txt
 propcache==0.5.4
     # via
     #   aiohttp
     #   yarl
 psutil==7.2.2
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
-pycparser==3.11
+    # via -r u.txt
+pycparser==3.12
     # via cffi
-pydantic==2.14.1
+pydantic==2.14.3
     # via fastapi
-pydantic-core==2.50.1
+pydantic-core==2.50.4
     # via pydantic
 pygments==2.21.0
     # via rich
 pynacl==1.6.2
     # via paramiko
 pyyaml==6.0.3
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+    # via -r u.txt
 rich==15.0.0
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
-starlette==1.8.0
+    # via -r u.txt
+starlette==1.10.0
     # via fastapi
 typing-extensions==4.16.0
     # via
@@ -91,11 +91,11 @@ typing-extensions==4.16.0
     #   pydantic-core
     #   starlette
     #   typing-inspection
-typing-inspection==0.4.4
+typing-inspection==0.4.5
     # via
     #   fastapi
     #   pydantic
 uvicorn==0.54.0
-    # via -r C:/Users/Public/fxwork/InfraGuard/_u.txt
+    # via -r u.txt
 yarl==1.25.1
     # via aiohttp

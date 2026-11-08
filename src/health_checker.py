@@ -1,5 +1,7 @@
-import psutil
 import socket
+
+import psutil
+
 
 class HealthChecker:
     def check_cpu(self, threshold=80):
@@ -42,7 +44,10 @@ class HealthChecker:
         mem_ok, mem = self.check_memory()
         disk_ok, disk = self.check_disk()
         score = 100
-        if not cpu_ok: score -= 20
-        if not mem_ok: score -= 20
-        if not disk_ok: score -= 20
+        if not cpu_ok:
+            score -= 20
+        if not mem_ok:
+            score -= 20
+        if not disk_ok:
+            score -= 20
         return {"score": score, "cpu": cpu, "memory": mem, "disk": disk}

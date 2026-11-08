@@ -1,6 +1,6 @@
 from fastapi import FastAPI
+
 from .health_checker import HealthChecker
-import uvicorn
 
 app = FastAPI()
 health = HealthChecker()

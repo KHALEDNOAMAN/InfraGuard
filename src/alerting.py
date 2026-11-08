@@ -1,6 +1,6 @@
-import smtplib
 import json
 import urllib.request
+
 
 class AlertManager:
     def __init__(self):

@@ -1,5 +1,6 @@
 import paramiko
 
+
 class SSHMonitor:
     def __init__(self):
         self.client = paramiko.SSHClient()

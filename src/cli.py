@@ -1,5 +1,7 @@
 import click
+
 from .health_checker import HealthChecker
+
 
 @click.group()
 def cli():
